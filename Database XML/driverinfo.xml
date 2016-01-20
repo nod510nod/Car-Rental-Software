@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.1.14
+- http://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Nov 16, 2015 at 04:50 AM
+- Server version: 5.6.17
+- PHP Version: 5.5.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="najeerental" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="driverinfo">
+                CREATE TABLE `driverinfo` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `fname` varchar(255) CHARACTER SET latin1 NOT NULL,
+                  `lname` varchar(255) CHARACTER SET latin1 NOT NULL,
+                  `license` varchar(255) CHARACTER SET latin1 NOT NULL,
+                  `age` varchar(255) CHARACTER SET latin1 NOT NULL,
+                  `address1` varchar(255) CHARACTER SET latin1 NOT NULL,
+                  `address2` varchar(255) CHARACTER SET latin1 NOT NULL,
+                  `city` varchar(255) CHARACTER SET latin1 NOT NULL,
+                  `state` varchar(255) CHARACTER SET latin1 NOT NULL,
+                  `zip` varchar(255) CHARACTER SET latin1 NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'najeerental'
+    -->
+    <database name="najeerental">
+        <!-- Table driverinfo -->
+    </database>
+</pma_xml_export>

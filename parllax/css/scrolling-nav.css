@@ -1,0 +1,74 @@
+body {
+    width: 100%;
+    height: 708px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+.intro-section {
+    height: 100%;
+    padding-top: 90px;
+    text-align: left;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    text-align: left;
+    background: #fff;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.form-group2{  margin-top: 0em;
+  line-height: 3em;}
+
+ #stateMar{  margin-left: 0%;}
+
+ #logo{
+    margin-top: -14%;
+  margin-left: 59%;
+}
+
+.info{
+    margin-top: -11%;
+    line-height: 2;
+    font-weight: 400;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+
+#rowMar{  margin-top: -7em;}
+
+#exampleInputEmail12{  width: 56%;}
+ 
+#save{
+    margin-left: 1%;
+    background-color: rgb(245, 117, 42);
+    height: 39px;
+}
